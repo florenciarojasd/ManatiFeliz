@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'kionaregular';
+    src: url('../fonts/kiona-regular-webfont.woff') format('woff2'),
+         url('../fonts/kiona-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'walkway_condensedregular';
+    src: url('../fonts/walkway_condensed-webfont.woff2') format('woff2'),
+         url('../fonts/walkway_condensed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'kionaregular';
+    background-image: url(../img/8.jpg);
+    font-weight:500;
+    font-size: 0.85rem;
+    --color-link: #d3e5fc;
+}
+.main{
+   color:  rgb(43, 36, 36);
+}
+
+.screen {
+	text-transform: uppercase;
+}
+
+.content__subtitle {
+color:  rgb(43, 36, 36);
+}
+.content__title {
+    font-size: 8vw;
+    font-weight: 900;
+    color: rgb(43, 36, 36);
+}
+
+.content__credits {
+    color: rgb(43, 36, 36);
+    font-family: 'walkway_condensedregular';
+    letter-spacing: 1px;
+    font-size: 1.15rem;
+    max-width: 42rem;
+    box-sizing: border-box;
+  width: 50%;
+  border: 5px solid black;
+  float: left;
+  content: var(--color-link);
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 20px;
+  width: 500px;
+  height: 120px;
+}
